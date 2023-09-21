@@ -3,23 +3,27 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-.banner-text{
-    text-align: center;
-    color: #474747;
-    padding-top: 180px;
-    position: relative;
-    width: 100%;
+body {
+    width: 100vw;
     height: 100vh;
-    background: #eff4fd;
+    background: linear-gradient(rgba(114, 70, 70, 0.301),rgba(155, 19, 30, 0.363)), url(images/cloud.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.banner-text h1{
+.banner{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 180px;
+    position: relative;
+}
+
+.banner h1{
     font-size: 90px;
     font-family: 'Kaushan Script', cursive
 }
 
-.banner-text p{
+.banner p{
     font-size: 20px;
     font-style: italic;
 }
@@ -29,13 +33,13 @@
 }
 
 .banner-btn a{
-    width: 150px;
+    width: 180px;
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
-    color: #242424;
-    border: .5px solid #1a1a1a;
+    color: whitesmoke;
+    border: .5px solid whitesmoke;
     position: relative;
     z-index: 1;
     transition: color 0.5s;
@@ -47,7 +51,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #bdbdbd;
+    background: whitesmoke;
     z-index: -1;
     transition: 0.5s;
 }
@@ -57,5 +61,5 @@
 }
 
 .banner-btn a:hover{
-    color: black;
+    color: rgb(77, 4, 20);
 }
